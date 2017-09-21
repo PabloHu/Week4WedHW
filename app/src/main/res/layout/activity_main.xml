@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.week4wedhw.MainActivity" >
+<Button
+    android:id="@+id/btnPlay"
+    android:text="Play"
+    android:onClick="musicPlayerClicks"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnPause"
+        android:text="Pause"
+        android:onClick="musicPlayerClicks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStop"
+        android:text="Stop"
+        android:onClick="musicPlayerClicks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnUseCustomBroadcast"
+        android:text="custom Broadcast"
+        android:onClick="musicPlayerClicks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOrderedBroadcast"
+        android:text="Ordered Broadcast"
+        android:onClick="musicPlayerClicks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
